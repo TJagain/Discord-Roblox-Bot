@@ -1,0 +1,25 @@
+# Replit local runtime and agent state
+.local/
+.config/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Node dependencies and generated output
+node_modules/
+coverage/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
